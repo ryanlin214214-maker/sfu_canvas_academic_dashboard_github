@@ -1,0 +1,27 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.token
+*token*.txt
+.streamlit/secrets.toml
+*.pem
+*.key
+credentials.json
+credentials-*.json
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Personal Canvas data and logs
+reports/
+*.log
+
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/
